@@ -1,0 +1,16 @@
+{
+  "name": "node-api",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "~1.0.1",
+    "express": "~4.0.0",
+    "foreman": "^2.0.0",
+    "mongoose": "^4.6.8",
+    "react-scripts": "^0.9.5"
+  },
+  "scripts": {
+    "install": "cd chariot && npm install && npm run build && cd ..",
+    "start": "node server.js",
+    "dev": "nf start -p 3000 --procfile Procfile.dev"
+  }
+}
